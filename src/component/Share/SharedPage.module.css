@@ -1,0 +1,107 @@
+.body{
+    background-color: #eeeeee;
+    height: 100vh;
+}
+
+.box{
+   margin-top: 3rem;
+   max-width: 50rem;
+   position: absolute;
+   top: 40%;
+   left: 50%;
+   height: 45rem;
+   transform: translate(-50%, -50%);
+   box-shadow: 0 1rem 2.5rem rgba(0,0,0,.2);
+   border-radius: 10px;
+   background-color: #ffffff;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   -ms-border-radius: 10px;
+   -o-border-radius: 10px;
+   -webkit-transform: translate(-50%, -50%);
+   -moz-transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   -o-transform: translate(-50%, -50%);
+}
+
+.img{
+    padding: 4rem;
+    background-color:#FFF8F5;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-bottom: 1.5rem;
+}
+
+.share_box{
+    padding: 4rem;
+    text-align: center;
+}
+
+.share_box h2{
+    font-size: 2.5rem;
+    width: 70%;
+    margin: 0 15%;
+    margin-bottom: 1.5rem;
+}
+
+.share_box p{
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    width: 70%;
+    margin: 0 15%;
+}
+
+.btn2{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 3rem;
+    padding: 1.5rem 5.5rem;
+    font-size: 1.4rem;
+    background-color: #FF5C00;
+    color: #FFFFFF;
+    font-weight: 700;
+    border: 0;
+    cursor: pointer;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+@media only screen and (max-width: 75em){
+    .box{
+        margin-top: 3rem;
+        max-width: 50rem;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        height: 50rem;
+    }
+}
+
+@media only screen and (max-width: 56.25em) {
+    .box{
+        margin-top: 3rem;
+        max-width: 50rem;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        height: 60rem;
+    }    
+}
+
+
+@media only screen and (max-width: 37.5em) {
+    .box{
+        margin-top: 3rem;
+        width: 33rem;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        height: 60rem;
+    }
+}    

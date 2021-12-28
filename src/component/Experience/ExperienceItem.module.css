@@ -1,0 +1,216 @@
+
+.header__box2__right{
+    max-width: 114rem;
+    margin: 0 auto;
+    max-height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.header__box2__left{   
+    max-width: 114rem;
+    margin: 0 auto;
+    max-height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.header__hero2{
+    flex: 0 1 40%;
+    margin-right: 10%;
+    position: relative;
+    margin-top: 3rem;
+}
+
+.header__hero3{
+    flex: 0 1 40%;
+    margin-right: 10%;
+    position: relative;
+    margin-top: 3rem;
+}
+
+.header__hero2::after{
+    display: block;
+    content: "";
+    height: 99%;
+    width: 100%;
+    background-color:  #2E2E2E;
+    position: absolute;
+    left: 0%;
+    top: 7%;
+    clip-path: circle(50% at 50% 65%);
+    z-index: 2;
+    margin-top: -2rem;
+    overflow: hidden;
+}
+
+.header__hero3::after{
+    display: block;
+    content: "";
+    height: 99%;
+    width: 100%;
+    background-color:  rgba(250, 228, 219, 0.973);
+    position: absolute;
+    left: 0%;
+    top: 7%;
+    clip-path: circle(50% at 50% 65%);
+    z-index: 2;
+    margin-top: -2rem;
+    overflow: hidden;
+}
+
+.header__img2{
+    position: relative;
+    height: 100%;
+    z-index: 10;
+    width: 70%;
+    margin: 0 15%;
+    overflow: hidden;
+}
+
+.content__right{
+    background-color: #222222;
+    position: relative;
+    z-index: 15;
+}
+
+.content__left{
+    background-color: #FFF8F5;
+    position: relative;
+    z-index: 15;
+}
+
+.headings2{
+    flex: 0 1 50%;
+    padding: 4rem;
+}
+
+.headings3{
+    flex: 0 1 50%;
+    padding: 4rem;
+}
+
+.headings2 h2{
+font-size: 2rem;
+color: #ffffff;
+margin-bottom: 0.5rem;
+}
+
+.headings3 h2{
+    font-size: 2rem;
+    color: #242120;
+    margin-bottom: 0.5rem;
+}
+
+.headings2 span{
+    color: #ffffff;
+    font-size: 0.9rem;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+    display: inline-block;
+    margin-bottom: 1rem;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    text-transform: uppercase;
+}
+.headings3 span{
+    color: #FF5C00;
+    font-size: 0.9rem;
+    border: 1px solid rgba(255, 92, 0, 0.4);
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+    display: inline-block;
+    margin-bottom: 1rem;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    text-transform: uppercase;
+}
+
+.headings2 p{
+    color: #ffffff;
+    font-size: 1.3rem;
+    width: 60%;
+    margin-top: 1rem;
+}
+
+.headings3 p{
+    color: #242120;
+    font-size: 1.3rem;
+    width: 60%;
+    margin-top: 1rem;
+}
+
+.a_right{
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 1.3rem;
+    color: #ffffff;
+    font-size: 1.3rem;
+    border-bottom: 0.5px solid #FF5C00;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.a_left{
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 1.3rem;
+    color: #FF5C00;
+    font-size: 1.3rem;
+    border-bottom: 0.5px solid #FF5C00;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 37.5em) {
+    .header__box2__right{
+        max-height: 99vh;
+        flex-direction: column-reverse;
+    }
+    
+    .header__box2__left{   
+         max-height: 99vh;
+        flex-direction: column-reverse;
+    }
+
+    .header__hero2{
+        flex: 0 1 40%;
+        margin-right: 10%;
+        position: relative;
+        margin-top: 3rem;
+    }
+    
+    .header__hero3{
+        flex: 0 1 40%;
+        margin-right: 10%;
+        position: relative;
+        margin-top: 3rem;
+    }
+
+    .headings2 p{
+        color: #ffffff;
+        font-size: 2rem;
+        width: 80%;
+        margin-top: 1rem;
+    }
+    
+    .headings3 p{
+        color: #242120;
+        font-size: 2rem;
+        width: 80%;
+        margin-top: 1rem;
+    }
+
+    .header__hero2::after{
+        height: 97%;
+    }
+}

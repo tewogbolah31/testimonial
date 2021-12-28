@@ -1,0 +1,21 @@
+.story__box{
+    display: flex;
+    max-width: 114rem;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.story{
+    position: relative;
+    z-index: 20;
+    padding: 4rem 0;
+}
+
+@media only screen and (max-width: 37.5em) {
+    .story__box{
+        max-width: 56em;
+        flex-direction: column;
+    } 
+}
